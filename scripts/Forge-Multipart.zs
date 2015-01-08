@@ -1,30 +1,68 @@
-//Created by DreamMasterXXL
+// ******** Created by Arch-Nihil ********
 
-//remove Recipes
 
-//Stone Saw
-recipes.remove(<ForgeMicroblock:sawStone>);
-//Iron Saw
-recipes.remove(<ForgeMicroblock:sawIron>);
-//Diamond Saw
-recipes.remove(<ForgeMicroblock:sawDiamond>);
 
-//add recipes
+// *======= Importing Stuff =======*
 
-//Stone Saw
-recipes.addShaped(<ForgeMicroblock:sawStone>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <TConstruct:swordBlade:1>, <ore:rodStone>],
+
+import mods.nei.NEI;
+
+
+
+// *======= Variables =======*
+
+
+val Stick = <ore:stickWood>;
+
+val StoneRod = <ore:rodStone>;
+val IronRod = <ore:stickAnyIron>;
+val DiamondRod = <ore:stickDiamond>;
+
+val StoneSaw = <ForgeMicroblock:sawStone>;
+val IronSaw = <ForgeMicroblock:sawIron>;
+val DiamondSaw = <ForgeMicroblock:sawDiamond>;
+
+val StoneBlade = <TConstruct:swordBlade:1>;
+val IronSawHead = <ore:toolHeadSawAnyIron>;
+
+
+
+// *======= Removing Recipes =======*
+
+
+// --- Stone Saw
+recipes.remove(StoneSaw);
+
+// --- Iron Saw
+recipes.remove(IronSaw);
+
+// --- Diamond Saw
+recipes.remove(DiamondSaw);
+
+
+
+// *======= Adding Back Recipes =======*
+
+
+// --- Stone Saw
+recipes.addShaped(StoneSaw, [
+[Stick, StoneRod, StoneRod],
+[Stick, StoneBlade, StoneBlade],
 [null, null, null]]);
 
-//Iron Saw
-recipes.addShaped(<ForgeMicroblock:sawIron>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:toolHeadSawAnyIron>, <ore:rodStone>],
+// --- Iron Saw
+recipes.addShaped(IronSaw, [
+[Stick, IronRod, IronRod],
+[Stick, IronSawHead, IronSawHead],
 [null, null, null]]);
 
-//Diamond Saw
-recipes.addShaped(<ForgeMicroblock:sawDiamond>, [
-[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>],
-[<ore:stickWood>, <ore:toolHeadSawDiamond>, <ore:rodStone>],
+// --- Diamond Saw
+recipes.addShaped(DiamondSaw, [
+[Stick, DiamondRod, DiamondRod],
+[Stick, IronSawHead, IronSawHead],
 [null, null, null]]);
+
+
+
+// #======= Hiding Stuff =======#
+
