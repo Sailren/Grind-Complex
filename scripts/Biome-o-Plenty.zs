@@ -36,6 +36,7 @@ val SapphireBlock = <BiomesOPlenty:gemOre:13>;
 val AmberBlock = <BiomesOPlenty:gemOre:15>;
 
 val MudBall = <BiomesOPlenty:mudball>;
+val MudBrick = <BiomesOPlenty:misc>;
 val AshPile = <BiomesOPlenty:misc:1>;
 val ChunkOfFlesh = <BiomesOPlenty:misc:3>;
 val Dart = <BiomesOPlenty:dart>;
@@ -43,6 +44,40 @@ val Thorns = <BiomesOPlenty:plants:5>;
 val Honeycomb = <BiomesOPlenty:misc:2>;
 val FilledHoneycomb = <BiomesOPlenty:food:9>;
 val EmptyJar = <BiomesOPlenty:jarEmpty>;
+val GhastlySoul = <BiomesOPlenty:misc:10>;
+
+val MudSword = <BiomesOPlenty:swordMud>;
+val MudShovel = <BiomesOPlenty:shovelMud>;
+val MudPick = <BiomesOPlenty:pickaxeMud>;
+val MudAxe = <BiomesOPlenty:axeMud>;
+val MudHoe = <BiomesOPlenty:hoeMud>;
+
+val MudHelm = <BiomesOPlenty:helmetMud>;
+val MudChest = <BiomesOPlenty:chestplateMud>;
+val MudLegs = <BiomesOPlenty:leggingsMud>;
+val MudBoots = <BiomesOPlenty:bootsMud>;
+
+val AmethystSword = <BiomesOPlenty:swordAmethyst>;
+val AmethystShovel = <BiomesOPlenty:shovelAmethyst>;
+val AmethystPick = <BiomesOPlenty:pickaxeAmethyst>;
+val AmethystAxe = <BiomesOPlenty:axeAmethyst>;
+val AmethystHoe = <BiomesOPlenty:hoeAmethyst>;
+
+val AmethystHelm = <BiomesOPlenty:helmetAmethyst>;
+val AmethystChest = <BiomesOPlenty:chestplateAmethyst>;
+val AmethystLegs = <BiomesOPlenty:leggingsAmethyst>;
+val AmethystBoots = <BiomesOPlenty:bootsAmethyst>;
+
+val MudScythe = <BiomesOPlenty:scytheMud>;
+val WoodScythe = <BiomesOPlenty:scytheWood>;
+val StoneScythe = <BiomesOPlenty:scytheStone>;
+val IronScythe = <BiomesOPlenty:scytheIron>;
+val GoldScythe = <BiomesOPlenty:scytheGold>;
+val DiamondScythe = <BiomesOPlenty:scytheDiamond>;
+val AmethystScythe = <BiomesOPlenty:scytheAmethyst>;
+
+val Enderporter = <BiomesOPlenty:enderporter>;
+val Radar = <BiomesOPlenty:biomeFinder>;
 
 val CelesCrystalShard = <BiomesOPlenty:misc:4>;
 val EnderAmethyst = <BiomesOPlenty:gems>;
@@ -63,10 +98,26 @@ val Sapphire = <gregtech:gt.metaitem.02:28503>;
 val Amber = <gregtech:gt.metaitem.02:28514>;
 
 val Sand = <minecraft:sand>;
+val Planks = <ore:plankWood>;
+val Cobble = <ore:cobblestone>;
 val Stick = <ore:stickWood>;
 val Feather = <minecraft:feather>;
 val BoneMeal = <minecraft:dye:15>;
 val EmptyBottle = <ore:bottleEmpty>;
+val IDiamond = <IC2:itemPartIndustrialDiamond>;
+
+val EnderEyePlate = <ore:plateEnderEye>;
+val AlPlate = <ore:plateAluminium>;
+val EmeraldPlate = <ore:plateEmerald>;
+val RedAlloyRod = <ore:stickRedAlloy>;
+val IronRod = <ore:stickAnyIron>;
+val IronPlate = <ore:plateAnyIron>;
+val GoldPlate = <ore:plateGold>;
+val DiamondPlate = <ore:plateDiamond>;
+val AmethystPlate = <ore:plateAmethyst>;
+
+val HHammer = <ore:craftingToolHardHammer>;
+val File = <ore:craftingToolFile>;
 
 
 
@@ -126,6 +177,87 @@ recipes.removeShapeless(BoneMeal * 12, [LargeBoneS]);
 
 // --- Empty Jar
 recipes.remove(EmptyJar);
+
+// --- Enderporter
+recipes.remove(Enderporter);
+
+// --- Biome Radar
+recipes.remove(Radar);
+
+// --- Muddy Sword
+recipes.remove(MudSword);
+
+// --- Muddy Shovel
+recipes.remove(MudShovel);
+
+// --- Muddy Pickaxe
+recipes.remove(MudPick);
+
+// --- Muddy Axe
+recipes.remove(MudAxe);
+
+// --- Muddy Hoe
+recipes.remove(MudHoe);
+
+// --- Muddy Helmet
+recipes.remove(MudHelm);
+
+// --- Muddy Chestplate
+recipes.remove(MudChest);
+
+// --- Muddy Leggings
+recipes.remove(MudLegs);
+
+// --- Muddy Boots
+recipes.remove(MudBoots);
+
+// --- Amethyst Sword
+recipes.remove(AmethystSword);
+
+// --- Amethyst Shovel
+recipes.remove(AmethystShovel);
+
+// --- Amethyst Pickaxe
+recipes.remove(AmethystPick);
+
+// --- Amethyst Axe
+recipes.remove(AmethystAxe);
+
+// --- Amethyst Hoe
+recipes.remove(AmethystHoe);
+
+// --- Amethyst Helmet
+recipes.remove(AmethystHelm);
+
+// --- Amethyst Chestplate
+recipes.remove(AmethystChest);
+
+// --- Amethyst Leggings
+recipes.remove(AmethystLegs);
+
+// --- Amethyst Boots
+recipes.remove(AmethystBoots);
+
+// --- Muddy Scythe
+recipes.remove(MudScythe);
+
+// --- Wooden Scythe
+recipes.remove(WoodScythe);
+
+// --- Stone Scythe
+recipes.remove(StoneScythe);
+
+// --- Iron Scythe
+recipes.remove(IronScythe);
+
+// --- Gold Scythe
+recipes.remove(GoldScythe);
+
+// --- Diamond Scythe
+recipes.remove(DiamondScythe);
+
+// --- Amethyst Scythe
+recipes.remove(AmethystScythe);
 
 
 
@@ -209,6 +341,203 @@ Macerator.addRecipe(BoneMeal * 8, LargeBoneS);
 
 // --- Empty Jar
 recipes.addShapeless(EmptyJar, [EmptyBottle]);
+
+// --- Enderporter
+recipes.addShaped(Enderporter, [
+[EnderEyePlate, GhastlySoul, EnderEyePlate],
+[GhastlySoul, IDiamond, GhastlySoul],
+[EnderEyePlate, GhastlySoul, EnderEyePlate]]);
+
+// --- Biome Radar
+recipes.addShaped(Radar, [
+[AlPlate, EmeraldPlate, AlPlate],
+[EmeraldPlate, RedAlloyRod, EmeraldPlate],
+[AlPlate, EmeraldPlate, AlPlate]]);
+
+// --- Muddy Sword
+recipes.addShapedMirrored(MudSword, [
+[null, MudBrick, null],
+[null, MudBrick, null],
+[null, Stick, null]]);
+
+// --- Muddy Shovel
+recipes.addShapedMirrored(MudShovel, [
+[null, MudBrick, null],
+[null, Stick, null],
+[null, Stick, null]]);
+
+// --- Muddy Pickaxe
+recipes.addShapedMirrored(MudPick, [
+[MudBrick, MudBrick, MudBrick],
+[null, Stick, null],
+[null, Stick, null]]);
+
+// --- Muddy Axe
+recipes.addShapedMirrored(MudAxe, [
+[MudBrick, MudBrick, null],
+[MudBrick, Stick, null],
+[null, Stick, null]]);
+
+// --- Muddy Hoe
+recipes.addShapedMirrored(MudHoe, [
+[MudBrick, MudBrick, null],
+[null, Stick, null],
+[null, Stick, null]]);
+
+// --- Muddy Helmet
+recipes.addShaped(MudHelm, [
+[MudBrick, MudBrick, MudBrick],
+[MudBrick, null, MudBrick],
+[null, null, null]]);
+
+// --- Muddy Chestplate
+recipes.addShaped(MudChest, [
+[MudBrick, null, MudBrick],
+[MudBrick, MudBrick, MudBrick],
+[MudBrick, MudBrick, MudBrick]]);
+
+// --- Muddy Leggings
+recipes.addShaped(MudLegs, [
+[MudBrick, MudBrick, MudBrick],
+[MudBrick, null, MudBrick],
+[MudBrick, null, MudBrick]]);
+
+// --- Muddy Boots
+recipes.addShapedMirrored(MudBoots, [
+[MudBrick, null, MudBrick],
+[MudBrick, null, MudBrick],
+[null, null, null]]);
+
+// --- Amethyst Sword
+recipes.addShapedMirrored(AmethystSword, [
+[null, AmethystPlate, null],
+[File, AmethystPlate, HHammer],
+[null, IronRod, null]]);
+
+// --- Amethyst Shovel
+recipes.addShapedMirrored(AmethystShovel, [
+[File, AmethystPlate, HHammer],
+[null, IronRod, null],
+[null, IronRod, null]]);
+
+// --- Amethyst Pickaxe
+recipes.addShapedMirrored(AmethystPick, [
+[AmethystPlate, Amethyst, Amethyst],
+[File, IronRod, HHammer],
+[null, IronRod, null]]);
+
+// --- Amethyst Axe
+recipes.addShapedMirrored(AmethystAxe, [
+[AmethystPlate, Amethyst, HHammer],
+[AmethystPlate, IronRod, null],
+[File, IronRod, null]]);
+
+// --- Amethyst Hoe
+recipes.addShapedMirrored(AmethystHoe, [
+[AmethystPlate, Amethyst, HHammer],
+[File, IronRod, null],
+[null, IronRod, null]]);
+
+// --- Amethyst Helmet
+recipes.addShaped(MudHelm, [
+[AmethystPlate, AmethystPlate, AmethystPlate],
+[AmethystPlate, HHammer, AmethystPlate],
+[null, null, null]]);
+
+// --- Amethyst Chestplate
+recipes.addShaped(MudChest, [
+[AmethystPlate, HHammer, AmethystPlate],
+[AmethystPlate, AmethystPlate, AmethystPlate],
+[AmethystPlate, AmethystPlate, AmethystPlate]]);
+
+// --- Amethyst Leggings
+recipes.addShaped(MudLegs, [
+[AmethystPlate, AmethystPlate, AmethystPlate],
+[AmethystPlate, HHammer, AmethystPlate],
+[AmethystPlate, null, AmethystPlate]]);
+
+// --- Amethyst Boots
+recipes.addShapedMirrored(MudBoots, [
+[AmethystPlate, HHammer, AmethystPlate],
+[AmethystPlate, null, AmethystPlate],
+[null, null, null]]);
+
+// --- Muddy Scythe
+recipes.addShaped(MudScythe, [
+[null, MudBrick, MudBrick],
+[MudBrick, null, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(MudScythe, [
+[MudBrick, MudBrick, null],
+[Stick, null, MudBrick],
+[Stick, null, null]]);
+
+// --- Wooden Scythe
+recipes.addShaped(WoodScythe, [
+[File, Planks, Planks],
+[Planks, HHammer, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(WoodScythe, [
+[Planks, Planks, File],
+[Stick, HHammer, Planks],
+[Stick, null, null]]);
+
+// --- Stone Scythe
+recipes.addShaped(StoneScythe, [
+[File, Cobble, Cobble],
+[Cobble, HHammer, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(StoneScythe, [
+[Cobble, Cobble, File],
+[Stick, HHammer, Cobble],
+[Stick, null, null]]);
+
+// --- Iron Scythe
+recipes.addShaped(IronScythe, [
+[File, IronPlate, IronPlate],
+[IronPlate, HHammer, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(IronScythe, [
+[IronPlate, IronPlate, File],
+[Stick, HHammer, IronPlate],
+[Stick, null, null]]);
+
+// --- Gold Scythe
+recipes.addShaped(GoldScythe, [
+[File, GoldPlate, GoldPlate],
+[GoldPlate, HHammer, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(GoldScythe, [
+[GoldPlate, GoldPlate, File],
+[Stick, HHammer, GoldPlate],
+[Stick, null, null]]);
+
+// --- Diamond Scythe
+recipes.addShaped(DiamondScythe, [
+[File, DiamondPlate, DiamondPlate],
+[DiamondPlate, HHammer, Stick],
+[null, null, Stick]]);
+// - Alternate Recipe
+recipes.addShaped(DiamondScythe, [
+[DiamondPlate, DiamondPlate, File],
+[Stick, HHammer, DiamondPlate],
+[Stick, null, null]]);
+
+// --- Amethyst Scythe
+recipes.addShaped(AmethystScythe, [
+[File, AmethystPlate, AmethystPlate],
+[AmethystPlate, HHammer, IronRod],
+[null, null, IronRod]]);
+// - Alternate Recipe
+recipes.addShaped(AmethystScythe, [
+[AmethystPlate, AmethystPlate, File],
+[IronRod, HHammer, AmethystPlate],
+[IronRod, null, null]]);
 
 
 
