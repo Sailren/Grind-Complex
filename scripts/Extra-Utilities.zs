@@ -403,12 +403,6 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 [EnderPump, StainlessPipe, EnderPump],
 [UpgradeBase, EnderPump, UpgradeBase]]);
 
-// --- Stack Upgrade
-recipes.addShaped(StackUp, [
-[RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[SpeedUp, MVPiston, SpeedUp],
-[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
-
 // --- Paintbrush
 recipes.addShaped(Paintbrush, [
 [null, WovenCloth, WovenCloth],
