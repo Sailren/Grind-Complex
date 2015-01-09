@@ -105,7 +105,7 @@ recipes.addShaped(IridiumIronPlate, [
 [IronPlate, IridiumPlate, IronPlate],
 [IronPlate, IronPlate, IronPlate]]);
 // - Alternate Recipe
-Assembler.addRecipe(IridiumIronPlate, IridiumPlate, IronPlate * 8,  200, 32);
+Assembler.addRecipe(IridiumIronPlate, <gregtech:gt.metaitem.01:17084>, <gregtech:gt.metaitem.01:17032> * 8,  200, 32);
 
 // --- Sunnarium
 Compressor.addRecipe(Sunnarium, SunnariumPart * 9);
