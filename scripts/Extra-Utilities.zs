@@ -60,16 +60,6 @@ val AnyWool = <ore:blockWool>;
 val Noteblock = <minecraft:noteblock>;
 val BUD = <ExtraUtilities:budoff>;
 
-val SpeedUp = <ExtraUtilities:nodeUpgrade>;
-val ItemFilterUp = <ExtraUtilities:nodeUpgrade:1>;
-val WorldInterUp = <ExtraUtilities:nodeUpgrade:2>;
-val StackUp = <ExtraUtilities:nodeUpgrade:3>;
-val TransmitterUp = <ExtraUtilities:nodeUpgrade:5>;
-val ReceiverUp = <ExtraUtilities:nodeUpgrade:6>;
-val DepthFirstUp = <ExtraUtilities:nodeUpgrade:7>;
-val BreadthFirstUp = <ExtraUtilities:nodeUpgrade:8>;
-val RoundRobinUp = <ExtraUtilities:nodeUpgrade:9>;
-
 val RedAlloyRod = <ore:stickRedAlloy>;
 val BronzeGear = <ore:gearBronze>;
 val IronPlate = <ore:plateAnyIron>;
@@ -115,20 +105,6 @@ val WoodGear = <ore:gearWood>;
 val Stone = <ore:stone>;
 val RedAlloyGear = <ore:ringRedAlloy>;
 
-val TransferPipe = <ExtraUtilities:pipes>;
-val SortingPipe = <ExtraUtilities:pipes:8>;
-val FilterPipe = <ExtraUtilities:pipes:9>;
-val RationingPipe = <ExtraUtilities:pipes:10>;
-val EnergyPipe = <ExtraUtilities:pipes:11>;
-val CrossoverPipe = <ExtraUtilities:pipes:12>;
-val ModSortingPipe = <ExtraUtilities:pipes:13>;
-val EExtractionPipe = <ExtraUtilities:pipes:14>;
-val ItemRetrievalN = <ExtraUtilities:extractor_base_remote>;
-val FluidRetrievalN = <ExtraUtilities:extractor_base_remote:6>;
-val ItemTransferN = <ExtraUtilities:extractor_base>;
-val FluidTransferN = <ExtraUtilities:extractor_base:6>;
-val EnergyTransferN = <ExtraUtilities:extractor_base:12>;
-val HyperETransferN = <ExtraUtilities:extractor_base:13>;
 val MagnumTorch = <ExtraUtilities:magnumTorch>;
 val Chandelier = <ExtraUtilities:chandelier>;
 val Nitor = <Thaumcraft:ItemResource:1>;
@@ -206,33 +182,6 @@ recipes.remove(<ExtraUtilities:enderQuarryUpgrade:8>);
 // --- Quarry Pump Upgrade
 recipes.remove(<ExtraUtilities:enderQuarryUpgrade:9>);
 
-// --- Speed Upgrade
-recipes.remove(SpeedUp);
-
-// --- Item Filter Upgrade
-recipes.remove(ItemFilterUp);
-
-// --- World Interaction Upgrade
-recipes.remove(WorldInterUp);
-
-// --- Stack Upgrade
-recipes.remove(StackUp);
-
-// --- Transmitter Upgrade
-recipes.remove(TransmitterUp);
-
-// --- Receiver Upgrade
-recipes.remove(ReceiverUp);
-
-// --- Depth-First Upgrade
-recipes.remove(DepthFirstUp);
-
-// --- Breadth-First Upgrade
-recipes.remove(BreadthFirstUp);
-
-// --- Pseudo Round-Robin Upgrade
-recipes.remove(RoundRobinUp);
-
 // --- Paintbrush
 recipes.remove(Paintbrush);
 
@@ -275,53 +224,6 @@ recipes.remove(Muffler);
 
 // --- Rain Muffler
 recipes.remove(RainMuffler);
-
-
-// ||||| Pipes |||||
-
-
-// --- Transfer Pipe
-recipes.remove(TransferPipe);
-
-// --- Sorting Pipe
-recipes.remove(SortingPipe);
-
-// --- Filter Pipe
-recipes.remove(FilterPipe);
-
-// --- Rationing Pipe
-recipes.remove(RationingPipe);
-
-// --- Energy Pipe
-recipes.remove(EnergyPipe);
-
-// --- Crossover Pipe
-recipes.remove(CrossoverPipe);
-
-// --- Mod Sorting Pipe
-recipes.remove(ModSortingPipe);
-
-// --- Energy Extraction Pipe
-recipes.remove(EExtractionPipe);
-
-// --- Item Retrieval Node
-recipes.remove(ItemRetrievalN);
-
-// --- Fluid Retrieval Node
-recipes.remove(FluidRetrievalN);
-
-// --- Item Tranfer Node
-recipes.remove(ItemTransferN);
-
-// --- Fluid Transfer Node
-recipes.remove(FluidTransferN);
-
-// --- Energy Transfer Node
-recipes.remove(EnergyTransferN);
-
-// --- Hyper Energy Transfer Node
-recipes.remove(HyperETransferN);
-
 
 // ||||| Compressed Blocks |||||
 
@@ -501,59 +403,6 @@ recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:9>, [
 [EnderPump, StainlessPipe, EnderPump],
 [UpgradeBase, EnderPump, UpgradeBase]]);
 
-// --- Speed Upgrade
-recipes.addShaped(SpeedUp, [
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate],
-[SSteelPlate, DiamondGear, SSteelPlate],
-[RedAlloyPlate, SSteelPlate, RedAlloyPlate]]);
-
-// --- Item Filter Upgrade
-recipes.addShaped(ItemFilterUp, [
-[RedAlloyPlate, IronBars, RedAlloyPlate],
-[IronBars, DiamondGear, IronBars],
-[RedAlloyPlate, IronBars, RedAlloyPlate]]);
-
-// --- World Interaction Upgrade
-recipes.addShaped(WorldInterUp, [
-[DenseLapisPlate, IronPick, DenseLapisPlate],
-[IronPick, DiamondPick, IronPick],
-[DenseLapisPlate, IronPick, DenseLapisPlate]]);
-
-// --- Transmitter Upgrade
-recipes.addShaped(TransmitterUp, [
-[EnderEyePlate, WorldInterUp, EnderEyePlate],
-[BedrockGear, NStarPlate, BedrockGear],
-[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
-
-// --- Receiver Upgrade
-recipes.addShaped(ReceiverUp, [
-[EnderEyePlate, WorldInterUp, EnderEyePlate],
-[BedrockGear, NStarPlate, BedrockGear],
-[EnderEyePlate, WorldInterUp, EnderEyePlate]]);
-
-// --- Depth-First Upgrade
-recipes.addShaped(DepthFirstUp, [
-[RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[Wrench, SpeedUp, SpeedUp],
-[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
-
-// --- Breadth-First Upgrade
-recipes.addShaped(BreadthFirstUp, [
-[RedAlloyPlate, Wrench, RedAlloyPlate],
-[SpeedUp, SpeedUp, SpeedUp],
-[RedAlloyPlate, null, RedAlloyPlate]]);
-// - Alternate Recipe
-recipes.addShaped(BreadthFirstUp, [
-[RedAlloyPlate, null, RedAlloyPlate],
-[SpeedUp, SpeedUp, SpeedUp],
-[RedAlloyPlate, Wrench, RedAlloyPlate]]);
-
-// --- Pseudo Round-Robin Upgrade
-recipes.addShaped(RoundRobinUp, [
-[RedAlloyPlate, SpeedUp, RedAlloyPlate],
-[null, Wrench, SpeedUp],
-[RedAlloyPlate, SpeedUp, RedAlloyPlate]]);
-
 // --- Stack Upgrade
 recipes.addShaped(StackUp, [
 [RedAlloyPlate, SpeedUp, RedAlloyPlate],
@@ -642,131 +491,3 @@ recipes.addShaped(RainMuffler, [
 [AnyWool, Noteblock, AnyWool],
 [Noteblock, Muffler, Noteblock],
 [AnyWool, Noteblock, AnyWool]]);
-
-
-// ||||| Pipes |||||
-
-
-// --- Transfer Pipe
-recipes.addShaped(TransferPipe, [
-[SteelFoil, SteelPlate, SteelFoil],
-[Wrench, RedAlloyRod, HHammer],
-[SteelFoil, SteelPlate, SteelFoil]]);
-
-// --- Sorting Pipe
-recipes.addShaped(SortingPipe, [
-[SteelFoil, NANDChip, SteelFoil],
-[Wrench, TransferPipe, HHammer],
-[SteelFoil, NANDChip, SteelFoil]]);
-
-// --- Filter Pipe
-recipes.addShaped(FilterPipe, [
-[SteelFoil, BasicCircuit, SteelFoil],
-[Wrench, SortingPipe, HHammer],
-[SteelFoil, BasicCircuit, SteelFoil]]);
-
-// --- Rationing Pipe
-recipes.addShaped(RationingPipe, [
-[SteelFoil, NANDChip, SteelFoil],
-[Wrench, SortingPipe, HHammer],
-[SteelFoil, NANDChip, SteelFoil]]);
-
-// --- Energy Pipe
-recipes.addShaped(EnergyPipe, [
-[RedAlloyFoil, RedAlloyPlate, RedAlloyFoil],
-[Wrench, TransferPipe, HHammer],
-[RedAlloyFoil, RedAlloyPlate, RedAlloyFoil]]);
-
-// --- Crossover Pipe
-recipes.addShaped(CrossoverPipe * 4, [
-[HHammer, TransferPipe, SteelScrew],
-[TransferPipe, TransferPipe, TransferPipe],
-[SteelScrew, TransferPipe, Screwdriver]]);
-// - Alternate Recipe
-recipes.addShaped(CrossoverPipe * 4, [
-[Screwdriver, TransferPipe, SteelScrew],
-[TransferPipe, TransferPipe, TransferPipe],
-[SteelScrew, TransferPipe, HHammer]]);
-
-// --- Mod Sorting Pipe
-recipes.addShaped(ModSortingPipe, [
-[SteelFoil, BasicCircuit, SteelFoil],
-[Wrench, TransferPipe, HHammer],
-[SteelFoil, BasicCircuit, SteelFoil]]);
-
-// --- Energy Extraction Pipe
-recipes.addShaped(EExtractionPipe, [
-[ElectrumPlate, HHammer, ElectrumPlate],
-[ElectrumPlate, EnergyPipe, ElectrumPlate],
-[Wrench, EnergyPipe, null]]);
-// - Alternate Recipe
-recipes.addShaped(EExtractionPipe, [
-[ElectrumPlate, HHammer, ElectrumPlate],
-[ElectrumFoil, EnergyPipe, ElectrumFoil],
-[null, EnergyPipe, Wrench]]);
-
-// --- Item Retrieval Node
-recipes.addShaped(ItemRetrievalN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[ItemTransferN, ItemTransferN, ItemTransferN]]);
-// - Alternate Recipe
-recipes.addShaped(ItemRetrievalN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[ItemTransferN, ItemTransferN, ItemTransferN]]);
-
-// --- Fluid Retrieval Node
-recipes.addShaped(FluidRetrievalN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[FluidTransferN, FluidTransferN, FluidTransferN]]);
-// - Alternate Recipe
-recipes.addShaped(FluidRetrievalN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[FluidTransferN, FluidTransferN, FluidTransferN]]);
-
-// --- Item Tranfer Node
-recipes.addShaped(ItemTransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SteelGear, BrassItemPipe, SteelGear]]);
-// - Alternate Recipe
-recipes.addShaped(ItemTransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, LVChestBuffer, EnderPearlPlate],
-[SteelGear, BrassItemPipe, SteelGear]]);
-
-// --- Fluid Transfer Node
-recipes.addShaped(FluidTransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[SSteelPlate, LVPump, SSteelPlate]]);
-// - Alternate Recipe
-recipes.addShaped(FluidTransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, OBTank, EnderPearlPlate],
-[SSteelPlate, LVPump, SSteelPlate]]);
-
-// --- Energy Transfer Node
-recipes.addShaped(EnergyTransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SSteelPlate, CopperCable12x, SSteelPlate]]);
-// - Alternate Recipe
-recipes.addShaped(EnergyTransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderPearlPlate, LVEnergyBuffer, EnderPearlPlate],
-[SSteelPlate, CopperCable12x, SSteelPlate]]);
-
-// --- Hyper Energy Transfer Node
-recipes.addShaped(HyperETransferN, [
-[HHammer, TransferPipe, Wrench],
-[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[ChromePlate, ElectrumCable12x, ChromePlate]]);
-// - Alternate Recipe
-recipes.addShaped(HyperETransferN, [
-[Wrench, TransferPipe, HHammer],
-[EnderEyePlate, HVEnergyBuffer, EnderEyePlate],
-[ChromePlate, ElectrumCable12x, ChromePlate]]);
