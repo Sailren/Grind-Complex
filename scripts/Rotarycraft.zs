@@ -69,6 +69,7 @@ recipes.remove(HSLAScrap);
 
 // --- HSHA Steel Scrap
 recipes.remove(HSHAScrap);
+furnace.remove(HSHAScrap);
 
 
 
