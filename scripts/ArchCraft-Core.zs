@@ -96,5 +96,7 @@ ImplosionCompressor.addRecipe(NeutronNqxPlate, NeutronNqxAlloy, 16);
 
 
 
-// #======= Hiding Stuff =======#
+// #======= Ore Dictionary Stuff =======#
 
+
+oreDict.circuitGrandmaster.add(GrandmasterCircuit);

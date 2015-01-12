@@ -20,7 +20,7 @@ val LapotronChip = <gregtech:gt.metaitem.01:32714>;
 val UUMatterCell = <IC2:itemFluidCell>.withTag({Fluid:{FluidName:"ic2uumatter", Amount:1000}});
 val IridiumAlloy = <ore:plateAlloyIridium>;
 
-val GrandmasterCircuit = <adc:ItemGrandmasterCircuit>;
+val GrandmasterCircuit = <ore:circuitGrandmaster>;
 
 
 
