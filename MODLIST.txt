@@ -55,6 +55,7 @@ HQM (Disabled at the moment.)			HQM-The Journey (4.2.1).jar
 Hunger Overhaul					HungerOverhaul-1.7.10-beta.4.jar
 Nuclear Control 2				IC2NuclearControl-2.0.8c.jar
 Iguana Tinker Tweaks				IguanaTinkerTweaks-1.7.10-2.1.1.jar
+IHL - Tools And Machines			ihl-tools_n_machines-0.526-1.7.10
 Immibis Core					immibis-core-59.0.5.jar
 Industrial Craft 2 Experimental			industrialcraft-2-2.2.658-experimental.jar
 Infernal Mobs					InfernalMobs-1.7.10.jar
