@@ -1,0 +1,119 @@
+Here goes the modlist. At the moment you'll have to go through each and download them. I'll ask for permissions later, once the pack is more complete. I doubt I'll get permission for everything, but I will try.
+
+
+
+***** MOD LIST *****				***** VERSIONS *****
+
+Advanced Solar Panels				AdvancedSolarPanel-1.7.10-3.5.1.jar
+Advanced Health Options				AdvHealthOptions-1.7.10-1.5.1.11.jar
+AFSU						AFSU-1.2.0a-Mustard.jar
+Ars Magica 2					AM2-1.4.0.006.jar
+Animation API					AnimationAPI-1.7.10-1.2.4.jar
+AppleCore					AppleCore-mc1.7.10-1.0.2.jar
+Applied Energistics 2 RV2			appliedenergistics2-rv2-beta-7.jar
+ArchCraft-Core					ArchCraft-Core-1.1.0-6.jar
+Archimede's Ships				ArchimedesShips-1.7.1.jar
+AsieLib						AsieLib-1.7.10-0.3.8.jar
+Backpack					backpack-2.0.1-1.7.x.jar
+BD Lib						bdlib-mc1710-1.6.0.35.jar
+Better Foliage (Optional.)			BetterFoliage-1.0.3.jar
+Bibliocraft					BiblioCraft[v1.9.2][MC1.7.10].jar
+BiblioWoods - Biomes O' Plenty			BiblioWoods[BiomesOPlenty][v1.9].jar
+BiblioWoods - Forestry				BiblioWoods[Forestry][v1.7].jar
+BiblioWoods - Natura				BiblioWoods[Natura][v1.5].jar
+Binnie Mods					binnie-mods-2.0-pre2.jar
+Biomes O' ¨Plenty				BiomesOPlenty-1.7.10-2.1.0.1036-universal.jar
+Blocklings					Blocklings-v2.1.1-1.7.10.jar
+Blood Magic					BloodMagic-1.7.10-1.3.0a-1.jar
+Buildcraft					buildcraft-6.2.6.jar
+Carpenter's Blocks				Carpenter's Blocks v3.3.4.2 - MC 1.7.10.jar
+Chisel						Chisel 2-2.2.1.jar
+Code Chicken Core				CodeChickenCore-1.7.10-1.0.4.29-universal.jar
+COFH Lib					CoFHLib-[1.7.10]1.0.0B9-53-dev.jar
+Compact Machines				compactmachines-1.7.10-1.13.jar
+Computronics					Computronics-1.7.10-1.3.4.jar
+CopyCore					copycore-1.7.10-1.5.1.7.jar
+Coro Util					CoroUtil-1.1.1.jar
+Dragon API					DragonAPI 1.7.10 V3d.jar
+Eira IRC (Optional.)				eirairc-mc1.7.10-v1.7.52.jar
+Electricraft					ElectriCraft 1.7.10 V3d.jar
+Ender Storage					EnderStorage-1.7.10-1.4.5.27-universal.jar
+EnviroMine (Physics Optional. Recommended.)	EnviroMine-v1.3.80.jar
+Extra Cells 2 					ExtraCells-1.7.10-2.2.24b44.jar
+Extra Utilities					extrautilities-1.2.1.jar
+Fastcraft (Optional.)				fastcraft-1.12.jar
+Forbidden Magic					Forbidden Magic-1.7.10-0.552.jar
+Forestry					forestry_1.7.10-3.3.0.400-unstable.jar
+GalacticGreg					GalacticGreg-0.5.jar
+Galacticraft - Planets				Galacticraft-Planets-1.7-3.0.6.250.jar
+Galacticraft Core				GalacticraftCore-1.7-3.0.6.250.jar
+Gendustry					gendustry-fu-mc1710-1.4.4.7.jar
+GraviSuite					GraviSuite-1.7.10-2.0.3.jar
+Greg's Lighting					GregsLighting-1.11.1-mc1.7.10.jar
+GregTech (Nah... Serious ?)			gregtech_1.7.10-5.07.06.jar
+HQM (Disabled at the moment.)			HQM-The Journey (4.2.1).jar
+Hunger Overhaul					HungerOverhaul-1.7.10-beta.4.jar
+Nuclear Control 2				IC2NuclearControl-2.0.8c.jar
+Iguana Tinker Tweaks				IguanaTinkerTweaks-1.7.10-2.1.1.jar
+Immibis Core					immibis-core-59.0.5.jar
+Industrial Craft 2 Experimental			industrialcraft-2-2.2.658-experimental.jar
+Infernal Mobs					InfernalMobs-1.7.10.jar
+Inventory Tweaks				InventoryTweaks-1.59-dev-152.jar
+Iron Chests					ironchest-1.7.10-6.0.62.742-universal.jar
+Iron Chests Minecarts				IronChestMinecarts-1.0.0.jar
+JABBA						Jabba-1.2.0a_1.7.10.jar
+Journey Map					JourneyMap5.0.1_FairPlay_MC1.7.10.jar
+Little Maid Mob					littleMaidMobX-1.7.10_0.0.5.jar
+Logistics Pipes					logisticspipes-0.8.2.89.jar
+Magic Bees					magicbees-1.7.10-2.1.22.jar
+Mantle						Mantle-1.7.10-0.3.2.jar
+Minecraft Comes Alive (Optional)		MCA-1.7.10-4.1.5-universal.jar
+Modular Forcefield System 3			mffs-4.1.1.61-core.jar
+Micdoodle Core					MicdoodleCore-1.7-3.0.6.250.jar
+Minetweaker 3					MineTweaker3-1.7.10-3.0.9C.jar
+Mobius Core					MobiusCore-1.2.3_1.7.10.jar
+Mod Tweaker					ModTweaker-1.7.X-0.6-0.jar
+Modular Powersuits				ModularPowersuits-0.11.0.176.jar
+Natura						natura-1.7.10-2.2.0.1.jar
+NEI Addons					neiaddons-mc1710-1.12.3.11.jar
+Not Enough Items				NotEnoughItems-1.7.10-1.0.4.83-universal.jar
+Numina						Numina-0.4.0.100.jar
+OpenBlocks					OpenBlocks-1.7.10-1.3-snapshot-535.jar
+Open Computers					OpenComputers-MC1.7.10-1.4.3.21-beta.1-universal.jar
+Open Mods Lib					OpenModsLib-1.7.10-0.6-snapshot-286.jar
+Pam's Harvestcraft				Pam's HarvestCraft 1.7.10f.jar
+Player API					PlayerAPI-1.7.10-1.1.jar
+RadixCore (Optional)				RadixCore-1.7.10-1.3.4-universal.jar
+Railcraft					Railcraft_1.7.10-9.4.0.0.jar
+Random Things					RandomThings-2.2.3.jar
+ReactorCraft					ReactorCraft 1.7.10 V3d.jar
+Red Logic					redlogic-59.1.5.jar
+Remote IO					RemoteIO-1.7.10-1.8.1.B84-universal.jar
+Resonant Engine					resonant-engine-3.3.0.396-core.jar
+Roguelike Dungeons				roguelike-1.7.10-1.3.5.jar
+RotaryCraft					RotaryCraft 1.7.10 V3d.jar
+Ruins (Disabled at the moment.)			Ruins-1.7.10.jar
+Secret Rooms Mod				secretroomsmod-1.7.10-4.7.1.377.jar
+Smart Core (Optional. Recommended.)		SmartCore-1.7.10-1.0.jar
+Smart Moving (Optional. Recommended.)		SmartMoving-1.7.10-15.2.jar
+Smart Render (Optional. Recommended.)		SmartRender-1.7.10-2.0.jar
+Special Mobs					SpecialMobs-1.7.10-3.0.3.jar
+Spice Of Life					SpiceOfLife-mc1.7.10-1.2.3.jar
+Statues						statues-1.7.10-2.1.4.jar
+Steve's Carts 2					StevesCarts2.0.0.b18.jar
+Steve's Factory Manager				StevesFactoryManagerA93.jar
+Tinker's Construct				TConstruct-1.7.10-1.8.1.jar
+Thaumcraft 4					Thaumcraft-1.7.10-4.2.3.0.jar
+Thaumcraft Mob Aspects				ThaumcraftMobAspects-1.7.2-2A.jar
+Thaumcraft NEI Plugin				thaumcraftneiplugin-1.7.10-1.6a.jar
+Thaumic Energistics				thaumicenergistics-0.8.7.2a-rv2.jar
+Thaumic Tinkerer 				ThaumicTinkerer-2.5-1.7.10-162.jar
+TIC Tooltips					TiCTooltips-mc1.7.10-1.2.0.jar
+Tinker's Mechworks				TMechworks-1.7.10-0.2.10.jar
+Twilight Forest					twilightforest-1.7.10-2.3.2.jar
+Underground Biomes Constructs			UndergroundBiomesConstructs-1.7.2-0.6h13.jar
+WAILA						Waila-1.5.8a_1.7.10.jar
+WAILA Harvestability				WailaHarvestability-mc1.7.x-1.1.1.jar
+Wild Caves 3 (Optional.)			WildCaves3-0.4.3.7(1.7.10).jar
+Wireless Redstone				WR-CBE-1.7.10-1.4.1.9-universal.jar
+Zombie Awareness				ZombieAwareness-1.9.6.jar
