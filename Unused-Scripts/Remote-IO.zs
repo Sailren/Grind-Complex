@@ -87,7 +87,7 @@ recipes.remove(Location);
 // --- IO Tool
 recipes.remove(IOTool);
 
-// --- blank Plate
+// --- Blank Plate
 recipes.remove(BlankPlate);
 
 
