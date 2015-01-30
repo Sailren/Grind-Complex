@@ -114,7 +114,7 @@ val StorageUp = <IC2:upgradeModule:2>;
 val PaperStack = <TConstruct:materials>;
 val CraftingT = <minecraft:crafting_table>;
 val EnderPearl = <ore:gemEnderPearl>;
-val Screen = <RotaryCraft:rotarycraft_item_borecraft:5>;
+val Screen = <OpenComputers:screen3>;
 
 val Screwdriver = <ore:craftingToolScrewdriver>;
 val Wrench = <ore:craftingToolWrench>;

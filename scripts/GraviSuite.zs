@@ -64,9 +64,6 @@ val PlatinumCable8x = <ore:cableGt08Platinum>;
 val AlCable8x = <ore:cableGt08Aluminium>;
 val NiobiumTiCable8x = <ore:cableGt08NiobiumTitanium>;
 
-val MagneticCore = <ReactorCraft:reactorcraft_item_crafting:6>;
-val RCCoolantCell = <ReactorCraft:reactorcraft_item_placer:2>;
-
 val AFB = <AFSU:ALC>;
 val Singularity = <appliedenergistics2:item.ItemMultiMaterial:48>;
 val SunnariumPart = <AdvancedSolarPanel:asp_crafting_items:9>;
@@ -182,7 +179,7 @@ recipes.addShaped(VajraCore, [
 // --- Magnetron
 recipes.addShaped(Magnetron, [
 [DMagNeodymiumPlate, TSteelPlate, DMagNeodymiumPlate],
-[Superconductor, MagneticCore, Superconductor],
+[Superconductor, DMagNeodymiumPlate, Superconductor],
 [DMagNeodymiumPlate, TSteelPlate, DMagNeodymiumPlate]]);
 
 // --- Gravitation Engine
@@ -212,7 +209,7 @@ recipes.addShaped(SuperconductorCover, [
 // --- Cooling Core
 recipes.addShaped(CoolingCore, [
 [IridiumAlloyPlate, CoolantCell60K, IridiumAlloyPlate],
-[CoolantCell60K, RCCoolantCell, CoolantCell60K],
+[CoolantCell60K, IridiumAlloyPlate, CoolantCell60K],
 [IridiumAlloyPlate, CoolantCell60K, IridiumAlloyPlate]]);
 
 // --- Relocator
