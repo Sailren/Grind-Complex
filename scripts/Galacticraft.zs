@@ -1,4 +1,6 @@
-//Created by DreamMasterXXL
+// ******* Created by Arch-Nihil for the *******
+// ******* Grind-Complex Supreme modpack *******
+
 
 //Mod Import
 

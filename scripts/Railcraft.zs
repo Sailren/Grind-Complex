@@ -1,5 +1,6 @@
-// --- Created DreamMasterXXL
-// --- Formatted And Fixed By Arch-Nihil.
+// ******* Created by Arch-Nihil for the *******
+// ******* Grind-Complex Supreme modpack *******
+
 
 // ***** Imports *****
 

@@ -1,3 +1,7 @@
+// ******* Created by Arch-Nihil for the *******
+// ******* Grind-Complex Supreme modpack *******
+
+
 //import Mods
 
 import mods.thaumcraft.Arcane;
