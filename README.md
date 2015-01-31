@@ -37,6 +37,6 @@ All in all. Have fun. :3
 * Okay, think I'm done. If you're interested after all this, there's 3 ways to contact me so I can give you the necessary files. (Scripts and whatnot.) I'll put them here in order of efficiency.
 FIRST. Communicate with me on the official TeamSpeak. (IP :   162.219.27.202 /// Password :   ftc) This is where you'll end up grabbing most of the updates anyway, so might as well get used to it now. I should answer you and allow you in pretty much instantly that way.
 SECOND. Send me a message on the IC2 forums. I see these every day or so, maybe less.
-THIRD. Even though it's my thread and all... I keep on forgetting to look at it. ;P This is the least preferred way. Also makes it easier to track down updates for you, since I'll TRY to be posting them here.
+THIRD. Leave a message in my thread on the IC2 forums.
 
 Created and maintained by Arch-Nihil.
