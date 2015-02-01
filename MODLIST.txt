@@ -36,7 +36,8 @@ compactmachines-1.7.10-1.16.jar
 Computronics-1.7.10-1.3.4.jar 
 copycore-1.7.10-1.5.1.7.jar 
 CoroUtil-1.1.2.jar 
-CustomChestLoot-1.7.10-1.1.1.jar (Unused at the moment. Got great plans for this.) 
+CustomChestLoot-1.7.10-1.1.1.jar (Unused at the moment. Got great plans for this.)
+Custom Collection for 1.7.10
 dimensional-anch
 DynamicLights-1.7.10or-59.0.2.jar
 eirairc-mc1.7.10-v1.7.56.jar (Strictly optional.)
@@ -44,7 +45,7 @@ EnderStorage-1.7.10-1.4.5.27-universal.jar
 EnviroMine-v1.3.96.jar (Physics !) 
 ExtraCells-1.7.10-2.2.49b75.jar 
 extrautilities-1.2.1.jar 
-fastcraft-1.18.jar (Optional but... STRONGLY recommended. Unless your PC is a gift from the gods. My 4770K@4.25Ghz cannot get 150-180 stable fps WITH it on a brand new server.)
+fastcraft-1.18.jar (Optional but... STRONGLY recommended. Unless your PC is a gift from the gods.)
 fmpintegration-1.0.jar 
 Forbidden Magic-1.7.10-0.552.jar 
 forestry_1.7.10-3.4.0.7.jar 
