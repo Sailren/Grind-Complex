@@ -4,7 +4,7 @@ My very own modpack built around Gregtech Hard Mode with a focus on complexity a
 
 Do you like challenges ? Do you like complexity ? Do you like challenges ? Do you like being kicked there by a raging kid right where it hurts ? Nope ? Not the latter. Well too bad. This is what my pack reminds me the most of. Pain. The mod selection aims to provide something that's challenging on all aspects. Be it for the overall recipe complexity, the much tougher mobs, hunger/regen mechanics, or even the added physics, I made all I could to keep this pack as hard and complex as possible while still trying to preserve the sweet, sweet tiering and balance of GregTech.
 
-*** THE PROGESSION. *** - And why this pack is a bitch.
+*** THE PROGRESSION. *** - And why this pack is a bitch.
 
 You'll notice right from the beginning, things might get nasty quickly. However, once you beat that part, you will feel you achieved something already. With both Spice Of Life and Hunger Overhaul (And they're not configured to be easy on you. ;]), just feeding yourself will be a pain, believe me. I know the pack inside and out so I now sorta breeze through it (Still suffering a few casualties here and there though...) but I figure not everybody will go through it that way. ;] With the added Thirst and Body Temperature aspect added by Enviromine, just surviving at first will be a thing of all instants.
 
