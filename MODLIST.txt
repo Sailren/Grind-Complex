@@ -4,6 +4,7 @@ Here goes the modlist. I'll ask for permissions later, once the pack is more com
 
 *** THE ACTUAL MODLIST *** - Yay !
 
+1.7.10-MB_Battlegear2-Bullseye-1.0.7.0
 AdminCommandsToolbox-0.0.2a_1.7.10
 AdvancedSolarPanel-1.7.10-3.5.1.jar
 AdvHealthOptions-1.7.10-1.5.1.11.jar
@@ -36,7 +37,8 @@ Computronics-1.7.10-1.3.4.jar
 copycore-1.7.10-1.5.1.7.jar 
 CoroUtil-1.1.2.jar 
 CustomChestLoot-1.7.10-1.1.1.jar (Unused at the moment. Got great plans for this.) 
-dimensional-anchor-59.0.2.jar
+dimensional-anch
+DynamicLights-1.7.10or-59.0.2.jar
 eirairc-mc1.7.10-v1.7.56.jar (Strictly optional.)
 EnderStorage-1.7.10-1.4.5.27-universal.jar 
 EnviroMine-v1.3.96.jar (Physics !) 
