@@ -1,0 +1,11 @@
+
+Loading excluded list from: C:\Games\Minecraft\Instances\GrindComplexSupreme\saves\Superflat\DIM88
+No exclusions found for this world.
+
+Loading options from: C:\Games\Minecraft\Instances\GrindComplexSupreme\saves\Superflat\DIM88
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world C:\Games\Minecraft\Instances\GrindComplexSupreme\saves\Superflat\DIM88, template files: 32
+2
