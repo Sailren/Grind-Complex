@@ -117,7 +117,7 @@ recipes.addShaped(OuterCore, [
 Compressor.addRecipe(OuterCore, Stardust * 9);
 
 // --- Gravity Wall
-recipes.addShapedMirrored(GravityWall, [
+recipes.addShapedMirrored(GravityWall * 16, [
 [null, null, null],
 [OuterCore, InnerCore, OuterCore],
 [null, null, null]]);
