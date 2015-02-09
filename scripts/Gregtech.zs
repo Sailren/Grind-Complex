@@ -231,3 +231,6 @@ recipes.addShapeless(<gregtech:gt.metaitem.01:2881>, [<ore:craftingToolMortar>, 
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <Natura:barleyFood>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <BiomesOPlenty:plants:6>);
 Macerator.addRecipe(<gregtech:gt.metaitem.01:2881>, <harvestcraft:barleyItem>);
+
+//Dough and Clay water Bucket
+recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<IguanaTweaksTConstruct:clayBucketWater>, <gregtech:gt.metaitem.01:2881>]);
